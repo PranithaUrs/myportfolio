@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    height: 100px;
+    width: 100vw;
+    background-color:#52B38F ;
+}
+body{
+    background-color: #86B6F6;
+}
+.cloud1{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.cloud2{
+    position: absolute;
+    right: 40px;
+    height: 100px;
+    width: 300px;
+    top: 50px;
+}
+.cloud3{
+    position: absolute;
+    top: 200px;
+    height: 100px;
+    width: 80px;
+    left:350px;
+}
+.cloud4{
+    position: absolute;
+    top: 300px;
+    height: 100px;
+    width: 80px;
+    right: 400px;
+}
+
+.parent{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    display: flex;
+}
+.child{
+    margin-top: 10px;
+    height: 100px;
+
+}
+.mountain{
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+}
+hr{
+    border-style: dotted;
+    border-color: blue;
+    width: 60%;
+    border-width: 5px;
+}
+.hr_container{
+    margin: 30px;
+}
+
+/* for mobile phone */
+@media (max-width:1000px){
+    .cloud2,.cloud3,.cloud4{
+        display: none;
+    }
+    .parent{
+        height: 20vh;
+    }
+    .mountain{
+        padding-top: 30px;
+    }
+}
+
